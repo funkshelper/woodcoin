@@ -1,28 +1,37 @@
-# Compiled Object files
-*.slo
-*.lo
+src/*.exe
+src/woodcoin
+src/woodcoind
+src/test_woodcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
 *.o
-*.obj
+*.patch
+.woodcoin
+*.core
+*pro.user.*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+woodcoind
+woodcoin-qt
+Woodcoin-Qt.app
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Unit-tests
+Makefile.test
+woodcoin-qt_test
 
-# Fortran module files
-*.mod
+# Resources cpp
+qrc_*.cpp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Qt creator
+*.pro.user
 
-# Executables
-*.exe
-*.out
-*.app
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
