@@ -64,7 +64,7 @@ QDateTime ClientModel::getLastBlockDate() const
 
 double ClientModel::getVerificationProgress() const
 {
-    return 0.3; 
+    return 0.3;
 }
 
 void ClientModel::updateTimer()
