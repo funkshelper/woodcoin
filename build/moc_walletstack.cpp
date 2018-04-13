@@ -1,25 +1,68 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'walletstack.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../src/qt/walletstack.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'walletstack.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.6. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.7.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_WalletStack_t {
+    QByteArrayData data[18];
+    char stringdata0[256];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_WalletStack_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_WalletStack_t qt_meta_stringdata_WalletStack = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "WalletStack"
+QT_MOC_LITERAL(1, 12, 16), // "setCurrentWallet"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 4), // "name"
+QT_MOC_LITERAL(4, 35, 16), // "gotoOverviewPage"
+QT_MOC_LITERAL(5, 52, 15), // "gotoHistoryPage"
+QT_MOC_LITERAL(6, 68, 19), // "gotoAddressBookPage"
+QT_MOC_LITERAL(7, 88, 20), // "gotoReceiveCoinsPage"
+QT_MOC_LITERAL(8, 109, 17), // "gotoSendCoinsPage"
+QT_MOC_LITERAL(9, 127, 4), // "addr"
+QT_MOC_LITERAL(10, 132, 18), // "gotoSignMessageTab"
+QT_MOC_LITERAL(11, 151, 20), // "gotoVerifyMessageTab"
+QT_MOC_LITERAL(12, 172, 13), // "encryptWallet"
+QT_MOC_LITERAL(13, 186, 6), // "status"
+QT_MOC_LITERAL(14, 193, 12), // "backupWallet"
+QT_MOC_LITERAL(15, 206, 16), // "changePassphrase"
+QT_MOC_LITERAL(16, 223, 12), // "unlockWallet"
+QT_MOC_LITERAL(17, 236, 19) // "setEncryptionStatus"
+
+    },
+    "WalletStack\0setCurrentWallet\0\0name\0"
+    "gotoOverviewPage\0gotoHistoryPage\0"
+    "gotoAddressBookPage\0gotoReceiveCoinsPage\0"
+    "gotoSendCoinsPage\0addr\0gotoSignMessageTab\0"
+    "gotoVerifyMessageTab\0encryptWallet\0"
+    "status\0backupWallet\0changePassphrase\0"
+    "unlockWallet\0setEncryptionStatus"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_WalletStack[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
       16,   14, // methods
@@ -29,45 +72,50 @@ static const uint qt_meta_data_WalletStack[] = {
        0,       // flags
        0,       // signalCount
 
- // slots: signature, parameters, type, tag, flags
-      18,   13,   12,   12, 0x0a,
-      44,   12,   12,   12, 0x0a,
-      63,   12,   12,   12, 0x0a,
-      81,   12,   12,   12, 0x0a,
-     103,   12,   12,   12, 0x0a,
-     131,  126,   12,   12, 0x0a,
-     158,   12,   12,   12, 0x2a,
-     178,  126,   12,   12, 0x0a,
-     206,   12,   12,   12, 0x2a,
-     227,  126,   12,   12, 0x0a,
-     257,   12,   12,   12, 0x2a,
-     287,  280,   12,   12, 0x0a,
-     307,   12,   12,   12, 0x0a,
-     322,   12,   12,   12, 0x0a,
-     341,   12,   12,   12, 0x0a,
-     356,   12,   12,   12, 0x0a,
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   94,    2, 0x0a /* Public */,
+       4,    0,   97,    2, 0x0a /* Public */,
+       5,    0,   98,    2, 0x0a /* Public */,
+       6,    0,   99,    2, 0x0a /* Public */,
+       7,    0,  100,    2, 0x0a /* Public */,
+       8,    1,  101,    2, 0x0a /* Public */,
+       8,    0,  104,    2, 0x2a /* Public | MethodCloned */,
+      10,    1,  105,    2, 0x0a /* Public */,
+      10,    0,  108,    2, 0x2a /* Public | MethodCloned */,
+      11,    1,  109,    2, 0x0a /* Public */,
+      11,    0,  112,    2, 0x2a /* Public | MethodCloned */,
+      12,    1,  113,    2, 0x0a /* Public */,
+      14,    0,  116,    2, 0x0a /* Public */,
+      15,    0,  117,    2, 0x0a /* Public */,
+      16,    0,  118,    2, 0x0a /* Public */,
+      17,    0,  119,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    9,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    9,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    9,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,   13,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
-};
-
-static const char qt_meta_stringdata_WalletStack[] = {
-    "WalletStack\0\0name\0setCurrentWallet(QString)\0"
-    "gotoOverviewPage()\0gotoHistoryPage()\0"
-    "gotoAddressBookPage()\0gotoReceiveCoinsPage()\0"
-    "addr\0gotoSendCoinsPage(QString)\0"
-    "gotoSendCoinsPage()\0gotoSignMessageTab(QString)\0"
-    "gotoSignMessageTab()\0gotoVerifyMessageTab(QString)\0"
-    "gotoVerifyMessageTab()\0status\0"
-    "encryptWallet(bool)\0backupWallet()\0"
-    "changePassphrase()\0unlockWallet()\0"
-    "setEncryptionStatus()\0"
 };
 
 void WalletStack::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
         WalletStack *_t = static_cast<WalletStack *>(_o);
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->setCurrentWallet((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 1: _t->gotoOverviewPage(); break;
@@ -90,28 +138,21 @@ void WalletStack::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     }
 }
 
-const QMetaObjectExtraData WalletStack::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject WalletStack::staticMetaObject = {
-    { &QStackedWidget::staticMetaObject, qt_meta_stringdata_WalletStack,
-      qt_meta_data_WalletStack, &staticMetaObjectExtraData }
+    { &QStackedWidget::staticMetaObject, qt_meta_stringdata_WalletStack.data,
+      qt_meta_data_WalletStack,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &WalletStack::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *WalletStack::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *WalletStack::qt_metacast(const char *_clname)
 {
-    if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_WalletStack))
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_WalletStack.stringdata0))
         return static_cast<void*>(const_cast< WalletStack*>(this));
     return QStackedWidget::qt_metacast(_clname);
 }
@@ -124,6 +165,10 @@ int WalletStack::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_c == QMetaObject::InvokeMetaMethod) {
         if (_id < 16)
             qt_static_metacall(this, _c, _id, _a);
+        _id -= 16;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 16)
+            *reinterpret_cast<int*>(_a[0]) = -1;
         _id -= 16;
     }
     return _id;
