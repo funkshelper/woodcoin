@@ -1,5 +1,15 @@
 # Woodcoin
 
+This repository contains full node Woodcoin software for transacting on the woodcoin network.  
+NOTE This repo is updated for Openssl v 1.1
+
+> openssl version
+OpenSSL 1.1.0g  2 Nov 2017
+
+If you have OpenSSL v. 1.0.x please use the "woodcoin-openssl-1.0" version of this repository located here:  
+http://github.com/funkshelper/woodcoin-openssl-1.0.git
+
+
 ============================================
 
 The Woodcoin chain is a log structured database.
