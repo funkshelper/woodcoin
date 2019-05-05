@@ -1,73 +1,25 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'optionsdialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.1)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../src/qt/optionsdialog.h"
-#include <QtCore/qbytearray.h>
-#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'optionsdialog.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.7.1. It"
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
-struct qt_meta_stringdata_OptionsDialog_t {
-    QByteArrayData data[20];
-    char stringdata0[338];
-};
-#define QT_MOC_LITERAL(idx, ofs, len) \
-    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_OptionsDialog_t, stringdata0) + ofs \
-        - idx * sizeof(QByteArrayData)) \
-    )
-static const qt_meta_stringdata_OptionsDialog_t qt_meta_stringdata_OptionsDialog = {
-    {
-QT_MOC_LITERAL(0, 0, 13), // "OptionsDialog"
-QT_MOC_LITERAL(1, 14, 12), // "proxyIpValid"
-QT_MOC_LITERAL(2, 27, 0), // ""
-QT_MOC_LITERAL(3, 28, 19), // "QValidatedLineEdit*"
-QT_MOC_LITERAL(4, 48, 6), // "object"
-QT_MOC_LITERAL(5, 55, 6), // "fValid"
-QT_MOC_LITERAL(6, 62, 17), // "enableApplyButton"
-QT_MOC_LITERAL(7, 80, 18), // "disableApplyButton"
-QT_MOC_LITERAL(8, 99, 17), // "enableSaveButtons"
-QT_MOC_LITERAL(9, 117, 18), // "disableSaveButtons"
-QT_MOC_LITERAL(10, 136, 18), // "setSaveButtonState"
-QT_MOC_LITERAL(11, 155, 6), // "fState"
-QT_MOC_LITERAL(12, 162, 22), // "on_resetButton_clicked"
-QT_MOC_LITERAL(13, 185, 19), // "on_okButton_clicked"
-QT_MOC_LITERAL(14, 205, 23), // "on_cancelButton_clicked"
-QT_MOC_LITERAL(15, 229, 22), // "on_applyButton_clicked"
-QT_MOC_LITERAL(16, 252, 24), // "showRestartWarning_Proxy"
-QT_MOC_LITERAL(17, 277, 23), // "showRestartWarning_Lang"
-QT_MOC_LITERAL(18, 301, 17), // "updateDisplayUnit"
-QT_MOC_LITERAL(19, 319, 18) // "handleProxyIpValid"
-
-    },
-    "OptionsDialog\0proxyIpValid\0\0"
-    "QValidatedLineEdit*\0object\0fValid\0"
-    "enableApplyButton\0disableApplyButton\0"
-    "enableSaveButtons\0disableSaveButtons\0"
-    "setSaveButtonState\0fState\0"
-    "on_resetButton_clicked\0on_okButton_clicked\0"
-    "on_cancelButton_clicked\0on_applyButton_clicked\0"
-    "showRestartWarning_Proxy\0"
-    "showRestartWarning_Lang\0updateDisplayUnit\0"
-    "handleProxyIpValid"
-};
-#undef QT_MOC_LITERAL
-
 static const uint qt_meta_data_OptionsDialog[] = {
 
  // content:
-       7,       // revision
+       6,       // revision
        0,       // classname
        0,    0, // classinfo
       14,   14, // methods
@@ -77,50 +29,47 @@ static const uint qt_meta_data_OptionsDialog[] = {
        0,       // flags
        1,       // signalCount
 
- // signals: name, argc, parameters, tag, flags
-       1,    2,   84,    2, 0x06 /* Public */,
+ // signals: signature, parameters, type, tag, flags
+      29,   15,   14,   14, 0x05,
 
- // slots: name, argc, parameters, tag, flags
-       6,    0,   89,    2, 0x08 /* Private */,
-       7,    0,   90,    2, 0x08 /* Private */,
-       8,    0,   91,    2, 0x08 /* Private */,
-       9,    0,   92,    2, 0x08 /* Private */,
-      10,    1,   93,    2, 0x08 /* Private */,
-      12,    0,   96,    2, 0x08 /* Private */,
-      13,    0,   97,    2, 0x08 /* Private */,
-      14,    0,   98,    2, 0x08 /* Private */,
-      15,    0,   99,    2, 0x08 /* Private */,
-      16,    0,  100,    2, 0x08 /* Private */,
-      17,    0,  101,    2, 0x08 /* Private */,
-      18,    0,  102,    2, 0x08 /* Private */,
-      19,    2,  103,    2, 0x08 /* Private */,
-
- // signals: parameters
-    QMetaType::Void, 0x80000000 | 3, QMetaType::Bool,    4,    5,
-
- // slots: parameters
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,   11,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 3, QMetaType::Bool,    4,   11,
+ // slots: signature, parameters, type, tag, flags
+      68,   14,   14,   14, 0x08,
+      88,   14,   14,   14, 0x08,
+     109,   14,   14,   14, 0x08,
+     129,   14,   14,   14, 0x08,
+     157,  150,   14,   14, 0x08,
+     182,   14,   14,   14, 0x08,
+     207,   14,   14,   14, 0x08,
+     229,   14,   14,   14, 0x08,
+     255,   14,   14,   14, 0x08,
+     280,   14,   14,   14, 0x08,
+     307,   14,   14,   14, 0x08,
+     333,   14,   14,   14, 0x08,
+     367,  353,   14,   14, 0x08,
 
        0        // eod
+};
+
+static const char qt_meta_stringdata_OptionsDialog[] = {
+    "OptionsDialog\0\0object,fValid\0"
+    "proxyIpValid(QValidatedLineEdit*,bool)\0"
+    "enableApplyButton()\0disableApplyButton()\0"
+    "enableSaveButtons()\0disableSaveButtons()\0"
+    "fState\0setSaveButtonState(bool)\0"
+    "on_resetButton_clicked()\0on_okButton_clicked()\0"
+    "on_cancelButton_clicked()\0"
+    "on_applyButton_clicked()\0"
+    "showRestartWarning_Proxy()\0"
+    "showRestartWarning_Lang()\0updateDisplayUnit()\0"
+    "object,fState\0"
+    "handleProxyIpValid(QValidatedLineEdit*,bool)\0"
 };
 
 void OptionsDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
         OptionsDialog *_t = static_cast<OptionsDialog *>(_o);
-        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->proxyIpValid((*reinterpret_cast< QValidatedLineEdit*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
         case 1: _t->enableApplyButton(); break;
@@ -138,34 +87,31 @@ void OptionsDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 13: _t->handleProxyIpValid((*reinterpret_cast< QValidatedLineEdit*(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
         default: ;
         }
-    } else if (_c == QMetaObject::IndexOfMethod) {
-        int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
-        {
-            typedef void (OptionsDialog::*_t)(QValidatedLineEdit * , bool );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&OptionsDialog::proxyIpValid)) {
-                *result = 0;
-                return;
-            }
-        }
     }
 }
 
-const QMetaObject OptionsDialog::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_OptionsDialog.data,
-      qt_meta_data_OptionsDialog,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+const QMetaObjectExtraData OptionsDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
 };
 
+const QMetaObject OptionsDialog::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_OptionsDialog,
+      qt_meta_data_OptionsDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &OptionsDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *OptionsDialog::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
 }
 
 void *OptionsDialog::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
-    if (!strcmp(_clname, qt_meta_stringdata_OptionsDialog.stringdata0))
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_OptionsDialog))
         return static_cast<void*>(const_cast< OptionsDialog*>(this));
     return QDialog::qt_metacast(_clname);
 }
@@ -179,10 +125,6 @@ int OptionsDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 14)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 14;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
-            *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 14;
     }
     return _id;
 }
@@ -190,7 +132,7 @@ int OptionsDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void OptionsDialog::proxyIpValid(QValidatedLineEdit * _t1, bool _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_END_MOC_NAMESPACE
