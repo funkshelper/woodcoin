@@ -1,4 +1,7 @@
-# Woodcoin
+# Woodcoins 
+
+This is the ultra-stable backbone full node and wallet for woodcoin,
+the project aiming to be the longest lived and cheapest public blockchain.  
 
 > openssl version
 OpenSSL 1.1.0g  2 Nov 2017
@@ -44,14 +47,14 @@ Technical Details:
 =============================================
 Build Instructions
 
-TYou will need these dependencies or equivalent:
+You will need these dependencies or equivalent:
 
-
+>>>>>>
 
 sudo apt-get install git build-essential libboost-all-dev libssl-dev qt-sdk libdb-dev libdb++-dev libminiupnpc-dev libqrencode-dev 
 
 
-
+>>>>>>
 
 Get the source with this command:
 
@@ -80,5 +83,7 @@ For the graphical client, simply go into the debug window (under Help) and type:
 * v1.0 - Baruk Khazad!  Woodcutting for the masses.
 
 * v1.1 - Hard fork to litecoin branch.  Block 3002.
+
+* v1.2 - Solidifying full node w/ version update.  Block 962000
 
 ### Visit Woodcoin.org for more information. 
