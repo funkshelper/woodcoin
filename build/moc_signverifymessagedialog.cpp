@@ -1,62 +1,25 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'signverifymessagedialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.1)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../src/qt/signverifymessagedialog.h"
-#include <QtCore/qbytearray.h>
-#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'signverifymessagedialog.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.7.1. It"
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
-struct qt_meta_stringdata_SignVerifyMessageDialog_t {
-    QByteArrayData data[10];
-    char stringdata0[267];
-};
-#define QT_MOC_LITERAL(idx, ofs, len) \
-    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_SignVerifyMessageDialog_t, stringdata0) + ofs \
-        - idx * sizeof(QByteArrayData)) \
-    )
-static const qt_meta_stringdata_SignVerifyMessageDialog_t qt_meta_stringdata_SignVerifyMessageDialog = {
-    {
-QT_MOC_LITERAL(0, 0, 23), // "SignVerifyMessageDialog"
-QT_MOC_LITERAL(1, 24, 31), // "on_addressBookButton_SM_clicked"
-QT_MOC_LITERAL(2, 56, 0), // ""
-QT_MOC_LITERAL(3, 57, 25), // "on_pasteButton_SM_clicked"
-QT_MOC_LITERAL(4, 83, 31), // "on_signMessageButton_SM_clicked"
-QT_MOC_LITERAL(5, 115, 33), // "on_copySignatureButton_SM_cli..."
-QT_MOC_LITERAL(6, 149, 25), // "on_clearButton_SM_clicked"
-QT_MOC_LITERAL(7, 175, 31), // "on_addressBookButton_VM_clicked"
-QT_MOC_LITERAL(8, 207, 33), // "on_verifyMessageButton_VM_cli..."
-QT_MOC_LITERAL(9, 241, 25) // "on_clearButton_VM_clicked"
-
-    },
-    "SignVerifyMessageDialog\0"
-    "on_addressBookButton_SM_clicked\0\0"
-    "on_pasteButton_SM_clicked\0"
-    "on_signMessageButton_SM_clicked\0"
-    "on_copySignatureButton_SM_clicked\0"
-    "on_clearButton_SM_clicked\0"
-    "on_addressBookButton_VM_clicked\0"
-    "on_verifyMessageButton_VM_clicked\0"
-    "on_clearButton_VM_clicked"
-};
-#undef QT_MOC_LITERAL
-
 static const uint qt_meta_data_SignVerifyMessageDialog[] = {
 
  // content:
-       7,       // revision
+       6,       // revision
        0,       // classname
        0,    0, // classinfo
        8,   14, // methods
@@ -66,34 +29,36 @@ static const uint qt_meta_data_SignVerifyMessageDialog[] = {
        0,       // flags
        0,       // signalCount
 
- // slots: name, argc, parameters, tag, flags
-       1,    0,   54,    2, 0x08 /* Private */,
-       3,    0,   55,    2, 0x08 /* Private */,
-       4,    0,   56,    2, 0x08 /* Private */,
-       5,    0,   57,    2, 0x08 /* Private */,
-       6,    0,   58,    2, 0x08 /* Private */,
-       7,    0,   59,    2, 0x08 /* Private */,
-       8,    0,   60,    2, 0x08 /* Private */,
-       9,    0,   61,    2, 0x08 /* Private */,
-
- // slots: parameters
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
+ // slots: signature, parameters, type, tag, flags
+      25,   24,   24,   24, 0x08,
+      59,   24,   24,   24, 0x08,
+      87,   24,   24,   24, 0x08,
+     121,   24,   24,   24, 0x08,
+     157,   24,   24,   24, 0x08,
+     185,   24,   24,   24, 0x08,
+     219,   24,   24,   24, 0x08,
+     255,   24,   24,   24, 0x08,
 
        0        // eod
+};
+
+static const char qt_meta_stringdata_SignVerifyMessageDialog[] = {
+    "SignVerifyMessageDialog\0\0"
+    "on_addressBookButton_SM_clicked()\0"
+    "on_pasteButton_SM_clicked()\0"
+    "on_signMessageButton_SM_clicked()\0"
+    "on_copySignatureButton_SM_clicked()\0"
+    "on_clearButton_SM_clicked()\0"
+    "on_addressBookButton_VM_clicked()\0"
+    "on_verifyMessageButton_VM_clicked()\0"
+    "on_clearButton_VM_clicked()\0"
 };
 
 void SignVerifyMessageDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
         SignVerifyMessageDialog *_t = static_cast<SignVerifyMessageDialog *>(_o);
-        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_addressBookButton_SM_clicked(); break;
         case 1: _t->on_pasteButton_SM_clicked(); break;
@@ -109,21 +74,28 @@ void SignVerifyMessageDialog::qt_static_metacall(QObject *_o, QMetaObject::Call 
     Q_UNUSED(_a);
 }
 
-const QMetaObject SignVerifyMessageDialog::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_SignVerifyMessageDialog.data,
-      qt_meta_data_SignVerifyMessageDialog,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+const QMetaObjectExtraData SignVerifyMessageDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
 };
 
+const QMetaObject SignVerifyMessageDialog::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_SignVerifyMessageDialog,
+      qt_meta_data_SignVerifyMessageDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SignVerifyMessageDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *SignVerifyMessageDialog::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
 }
 
 void *SignVerifyMessageDialog::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
-    if (!strcmp(_clname, qt_meta_stringdata_SignVerifyMessageDialog.stringdata0))
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SignVerifyMessageDialog))
         return static_cast<void*>(const_cast< SignVerifyMessageDialog*>(this));
     return QDialog::qt_metacast(_clname);
 }
@@ -136,10 +108,6 @@ int SignVerifyMessageDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_
     if (_c == QMetaObject::InvokeMetaMethod) {
         if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
-            *reinterpret_cast<int*>(_a[0]) = -1;
         _id -= 8;
     }
     return _id;

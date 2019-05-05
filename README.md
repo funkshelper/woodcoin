@@ -1,6 +1,8 @@
 # Woodcoin
 
-## (A Funkenstein the Dwarf Presentation)
+# This is the most stable node, currently the backbone of thee network.  
+# Runs as QT gui but the gui is not as nice as woodcore wallet.  
+#
 
 ============================================
 
@@ -8,11 +10,13 @@ While many dwarfs were content to toil in the mines I have always felt affinity 
 
 Now you can chop logs.  
 
-The Woodcoin chain is a log structured database.
+The Woodcoin block chain is a log structured database.
 
 The money supply is logarithmic.
 
 The unit is log.
+
+Dedicated to Log, Twig, Chip, Woody, and the rest of all y'all.  
  
 ============================================
 
@@ -49,7 +53,7 @@ Build Instructions
 
 TYou will need these dependencies or equivalent:
 
-sudo apt-get install git build-essential libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb5.1++-dev qt-sdk libminiupnpc-dev libqrencode-dev 
+sudo apt-get install git build-essential libboost-all-dev libssl-dev qt-sdk libdb-dev libdb++-dev libminiupnpc-dev libqrencode-dev 
 
 Get the source with this command:
 
