@@ -1,14 +1,13 @@
 # Woodcoin
 
-# This is the most stable node, currently the backbone of thee network.  
-# Runs as QT gui but the gui is not as nice as woodcore wallet.  
-#
+> openssl version
+OpenSSL 1.1.0g  2 Nov 2017
+
+If you have OpenSSL v. 1.0.x please use the "woodcoin-openssl-1.0" version of this repository located here:  
+http://github.com/funkshelper/woodcoin-openssl-1.0.git
+
 
 ============================================
-
-While many dwarfs were content to toil in the mines I have always felt affinity for the forest.  
-
-Now you can chop logs.  
 
 The Woodcoin block chain is a log structured database.
 
@@ -26,7 +25,7 @@ Technical Details:
 
 * P2P Ports = 8338 (testnet 18338)
 
-* In Wallet woodcutting = Console, "setgenerate true"
+* In Wallet mining/logging = Console, "setgenerate true"
 
 * 120 Second Block Target, Diff Retarget every 1 hour
 
@@ -38,22 +37,21 @@ Technical Details:
 
 * Money Supply = 1000000*(log(nHeight) + gamma)     gamma=Euler-Mascheroni constant 
 
-* New ECDSA curve: X9_62_prime256v1 
+* ECDSA curve: X9_62_prime256v1 
 
 * Algo = Pure Skein (double skein) Bruce Schneier is a lumberjack and NSA didn't choose this algo.
-
-=============================================
-
-## Binary Wallets
-
-Some binaries are stored at https://github.com/paulmadore/woodcoin-dot-org/blob/master/bins. We try to keep Woodcoin accessible to all. 
 
 =============================================
 Build Instructions
 
 TYou will need these dependencies or equivalent:
 
+
+
 sudo apt-get install git build-essential libboost-all-dev libssl-dev qt-sdk libdb-dev libdb++-dev libminiupnpc-dev libqrencode-dev 
+
+
+
 
 Get the source with this command:
 
@@ -82,7 +80,5 @@ For the graphical client, simply go into the debug window (under Help) and type:
 * v1.0 - Baruk Khazad!  Woodcutting for the masses.
 
 * v1.1 - Hard fork to litecoin branch.  Block 3002.
-
-* v1.2 - Add paper wallet and QR code functionality.
 
 ### Visit Woodcoin.org for more information. 
