@@ -8,7 +8,7 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both bitcoind and bitcoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("Funkenstein");
+const std::string CLIENT_NAME("funkenstein_oo");
 
 // Client version number
 //#define CLIENT_VERSION_SUFFIX "-log"
@@ -56,7 +56,7 @@ const std::string CLIENT_NAME("Funkenstein");
 //Those github versionings were annoying. Code left in place in case we ever need it back. -- phm@woodcoin.org 9/21/2015
 
 #ifndef BUILD_DESC
-#    define BUILD_DESC "1.2.0.10"
+#    define BUILD_DESC "1.2.0.11"
 #endif
 
 #ifndef BUILD_DATE
