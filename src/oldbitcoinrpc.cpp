@@ -25,19 +25,6 @@
 #include <boost/shared_ptr.hpp>
 #include <list>
 
-// Boost Support for 1.70+ (Updated)
-// Thank you https://github.com/g1itch
-#if BOOST_VERSION >= 107000
-    #define GetIOService(s) ((boost::asio::io_context&)(s).get_executor().context())
-    #define GetIOServiceFromPtr(s) ((boost::asio::io_context&)(s->get_executor().context())) // this one
-    typedef boost::asio::io_context ioContext;
-
-#else
-    #define GetIOService(s) ((s).get_io_service())
-    #define GetIOServiceFromPtr(s) ((s)->get_io_service())
-    typedef boost::asio::io_service ioContext;
-#endif
-
 using namespace std;
 using namespace boost;
 using namespace boost::asio;
@@ -603,8 +590,7 @@ public:
     }
     bool connect(const std::string& server, const std::string& port)
     {
-        //ip::tcp::resolver resolver(stream.get_io_service());
-        boost::asio::ip::tcp::resolver resolver(GetIOService(stream));
+        ip::tcp::resolver resolver(stream.get_io_service());
         ip::tcp::resolver::query query(server.c_str(), port.c_str());
         ip::tcp::resolver::iterator endpoint_iterator = resolver.resolve(query);
         ip::tcp::resolver::iterator end;
