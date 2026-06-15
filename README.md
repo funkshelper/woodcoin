@@ -86,4 +86,6 @@ For the graphical client, simply go into the debug window (under Help) and type:
 
 * v1.2 - Solidifying full node w/ version update.  Block 962000
 
+* v1.2 - Edit for building for latest boost, c17 libraries
+
 ### Visit Woodcoin.org for more information. 
