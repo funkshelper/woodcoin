@@ -14,6 +14,8 @@
 
 #include <QDateTime>
 #include <QTimer>
+#include <boost/bind.hpp>
+using namespace boost::placeholders;  // For Boost 1.53+
 
 static const int64 nClientStartupTime = GetTime();
 
